@@ -1,6 +1,6 @@
 import Vuex from "vuex";
 import { shallowMount, createLocalVue } from "@vue/test-utils";
-import BlogPost from "@/components/BlogPost.vue";
+import BlogPost from "../BlogPost.vue";
 import TestHelpers from "test-helpers";
 
 const localVue = createLocalVue();

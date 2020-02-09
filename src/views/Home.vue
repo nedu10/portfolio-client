@@ -1,18 +1,33 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <BlogPost />
+    <!-- <BlogPost /> -->
+
+    <!-- ====header component ===== -->
+    <app-header />
+
+    <!-- ===intro section === -->
+    <app-intro-section />
+
+    <!-- ======about======= -->
+    <app-about />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import BlogPost from "@/components/BlogPost.vue";
+// import BlogPost from "@/components/BlogPost/BlogPost.vue";
+
+import appHeader from "@/components/reuseable_component/Header.vue";
+import appIntroSection from "@/components/reuseable_component/IntroSection.vue";
+import appAbout from "@/components/reuseable_component/About.vue";
 
 export default {
   name: "home",
   components: {
-    BlogPost
+    // BlogPost
+    appHeader,
+    appIntroSection,
+    appAbout
   }
 };
 </script>
