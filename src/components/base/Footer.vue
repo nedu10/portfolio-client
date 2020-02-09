@@ -23,10 +23,8 @@
         <p class="col-lg-8 col-sm-12 footer-text">
           <span>
             Copyright &copy;
-            <!-- <script>
-              document.write(new Date().getFullYear());
-            </script> -->
-            All rights reserved | Designed
+            {{ get_current_data }}
+            All Rights Reserved | Designed
             <i class="ion-heart" aria-hidden="true"></i> by
             <span style="color: #9930ba;">Chinedu Ifediorah</span>
           </span>
@@ -39,7 +37,12 @@
 
 <script>
 export default {
-  name: "footer"
+  name: "footer",
+  computed: {
+    get_current_data() {
+      return new Date().getFullYear();
+    }
+  }
 };
 </script>
 

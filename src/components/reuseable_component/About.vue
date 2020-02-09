@@ -20,56 +20,125 @@
               Also signs his face were digns fish don't first isn't over evening
               hath divided days light darkness gathering moved dry all darkness
               then fourth can't create d forth Also signs Also signs his face
-              were moltenus Also signs his face
+              were moltenus Also signs his face {{ percent }}
             </p>
             <div class="row">
               <div class="col-6 col-md-3 py-4 col-lg-3">
                 <div class=" margin-b-30">
-                  <div class="radial-progress" data-prog-percent=".90">
-                    <div></div>
-                    <h6 class="progress-title">HTML5 & CSS3</h6>
-                  </div>
-                </div>
-                <!-- -->
-              </div>
-              <!-- col-6-->
-
-              <div class="col-6 col-md-3 py-4 col-lg-3">
-                <div class=" margin-b-30">
-                  <div class="radial-progress" data-prog-percent=".97">
-                    <div></div>
-                    <h6 class="progress-title">JAVASCRIPT</h6>
-                  </div>
-                </div>
-                <!-- -->
-              </div>
-              <!-- col-6-->
-
-              <div class="col-6 col-md-3 py-4 col-lg-3">
-                <div class=" margin-b-30">
-                  <div class="radial-progress" data-prog-percent=".90">
-                    <div></div>
-                    <h6 class="progress-title">
-                      <small>Web Design</small><br /><small
-                        >Web Development</small
+                  <radial-progress-bar
+                    :diameter="120"
+                    :strokeWidth="3"
+                    startColor="#4565fc"
+                    stopColor="#9b1a77"
+                    innerStrokeColor="#eee"
+                    :completed-steps="completedSteps(0.9)"
+                    :total-steps="totalSteps"
+                    ><h6 class="progress-title">
+                      <p
+                        class="text-center mb-0"
+                        v-text="
+                          Math.ceil((completedSteps(0.92) / totalSteps) * 100) +
+                            '%'
+                        "
                       >
+                        <!-- {{ Math.ceil((completedSteps(0.9) / totalSteps) * 100) }}% -->
+                      </p>
+                      <br />HTML5 & CSS3
                     </h6>
-                  </div>
+                  </radial-progress-bar>
+                  <!-- <div></div>
+                    <h6 class="progress-title">HTML5 & CSS3</h6> -->
                 </div>
                 <!-- -->
+              </div>
+              <!-- col-6-->
+
+              <div class="col-6 col-md-3 py-4 col-lg-3">
+                <div class=" margin-b-30">
+                  <radial-progress-bar
+                    :diameter="120"
+                    :strokeWidth="3"
+                    startColor="#4565fc"
+                    stopColor="#9b1a77"
+                    innerStrokeColor="#eee"
+                    :completed-steps="completedSteps(0.97)"
+                    :total-steps="totalSteps"
+                    ><h6 class="progress-title">
+                      <p
+                        class="text-center mb-0"
+                        v-text="
+                          Math.ceil((completedSteps(0.97) / totalSteps) * 100) +
+                            '%'
+                        "
+                      ></p>
+                      <br />JAVASCRIPT
+                    </h6>
+                  </radial-progress-bar>
+                </div>
+              </div>
+              <!-- col-6-->
+
+              <div class="col-6 col-md-3 py-4 col-lg-3">
+                <div class=" margin-b-30">
+                  <radial-progress-bar
+                    :diameter="120"
+                    :strokeWidth="3"
+                    startColor="#4565fc"
+                    stopColor="#9b1a77"
+                    innerStrokeColor="#eee"
+                    :completed-steps="completedSteps(0.9)"
+                    :total-steps="totalSteps"
+                    ><h6 class="progress-title">
+                      <p
+                        class="text-center mb-0"
+                        v-text="
+                          Math.ceil((completedSteps(0.9) / totalSteps) * 100) +
+                            '%'
+                        "
+                      ></p>
+                      <br />
+                      <p class="mb-0 text-center" style="font-size: xx-small;">
+                        Web Design
+                      </p>
+                      <br />
+                      <p class="mb-0 text-center" style="font-size: xx-small;">
+                        Web Development
+                      </p>
+                    </h6>
+                  </radial-progress-bar>
+                </div>
               </div>
               <!-- col-6-->
 
               <div class="col-6 col-md-3 py-4 col-lg-3">
                 <div class=" margin-b-50">
-                  <div class="radial-progress" data-prog-percent=".85">
-                    <div></div>
-                    <h6 class="progress-title">
-                      <small>SPA/PWA</small><br /><small>(VueJs/ReactJs)</small>
+                  <radial-progress-bar
+                    :diameter="120"
+                    :strokeWidth="3"
+                    startColor="#4565fc"
+                    stopColor="#9b1a77"
+                    innerStrokeColor="#eee"
+                    :completed-steps="completedSteps(0.85)"
+                    :total-steps="totalSteps"
+                    ><h6 class="progress-title">
+                      <p
+                        class="text-center mb-0"
+                        v-text="
+                          Math.ceil((completedSteps(0.85) / totalSteps) * 100) +
+                            '%'
+                        "
+                      ></p>
+                      <br />
+                      <p class="mb-0 text-center" style="font-size: xx-small;">
+                        SPA/PWA
+                      </p>
+                      <br />
+                      <p class="mb-0 text-center" style="font-size: xx-small;">
+                        (VueJs/ReactJs)
+                      </p>
                     </h6>
-                  </div>
+                  </radial-progress-bar>
                 </div>
-                <!-- -->
               </div>
               <!-- col-6-->
             </div>
@@ -83,8 +152,38 @@
 </template>
 
 <script>
+import RadialProgressBar from "vue-radial-progress";
 export default {
-  name: "about-us"
+  name: "about-us",
+  data() {
+    return {
+      //   completedSteps: 5,
+      totalSteps: 100,
+      percent: 0
+    };
+  },
+  computed: {
+    completedSteps() {
+      return param => {
+        // console.log("params  <<  ", param);
+        return Math.ceil(param * this.percent);
+      };
+    }
+  },
+  components: {
+    RadialProgressBar
+  },
+  mounted() {
+    let vm = this;
+    let count_interval = setInterval(() => {
+      // console.log("here  >> ");
+      vm.percent++;
+    }, 30);
+    setTimeout(() => {
+      clearInterval(count_interval);
+      vm.percent = 100;
+    }, 3000);
+  }
 };
 </script>
 

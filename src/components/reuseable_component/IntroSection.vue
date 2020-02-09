@@ -8,7 +8,7 @@
         <div class="col-md-1 col-lg-2"></div>
         <div class="col-md-10 col-lg-8">
           <div class="intro">
-            <div class="profile-img">
+            <div class="profile-img" style="border: 3px solid #ffffff;">
               <img
                 src="@/assets/images/nedu_profile_1.jpg"
                 style="width: 100% !important;"

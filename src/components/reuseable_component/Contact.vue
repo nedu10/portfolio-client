@@ -78,7 +78,7 @@
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-home"></i></span>
             <div class="media-body">
-              <h3>No-3 FHA Estate</h3>
+              <h3>3 FHA Estate</h3>
               <p>Satelite Town Lagos</p>
             </div>
           </div>
