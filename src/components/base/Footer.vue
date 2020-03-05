@@ -7,7 +7,7 @@
           <div class="footer_top flex-column">
             <div class="footer_logo">
               <a href="#">
-                <img src="img/logo2.png" alt="" />
+                <img src="/assets/logo-new.png" width="75" alt="" />
               </a>
             </div>
             <div class="footer_social mt-4">

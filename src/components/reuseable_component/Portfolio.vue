@@ -17,10 +17,13 @@
       <div class="filters portfolio-filter">
         <ul>
           <li class="active" data-filter="*">all</li>
-          <li data-filter=".popular">popular</li>
-          <li data-filter=".latest">latest</li>
-          <li data-filter=".following">following</li>
-          <li data-filter=".upcoming">upcoming</li>
+          <li data-filter=".popular">favourite</li>
+          <li data-filter=".popular">html/css</li>
+          <li data-filter=".latest">vue</li>
+          <li data-filter=".following">react</li>
+          <li data-filter=".following">api</li>
+          <li data-filter=".following">node</li>
+          <li data-filter=".following">freelance designs</li>
         </ul>
       </div>
 

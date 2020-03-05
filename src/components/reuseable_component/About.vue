@@ -17,10 +17,10 @@
               Engineer
             </h2>
             <p>
-              Also signs his face were digns fish don't first isn't over evening
-              hath divided days light darkness gathering moved dry all darkness
-              then fourth can't create d forth Also signs Also signs his face
-              were moltenus Also signs his face {{ percent }}
+              I am a Full stack Software Engineer with proficiency in Javascript
+              and python. I love using these languages, its libraries and
+              frameworks to build excellent web applications and to solve
+              complex problems by creating scalable algorithms.
             </p>
             <div class="row">
               <div class="col-6 col-md-3 py-4 col-lg-3">
@@ -157,7 +157,6 @@ export default {
   name: "about-us",
   data() {
     return {
-      //   completedSteps: 5,
       totalSteps: 100,
       percent: 0
     };

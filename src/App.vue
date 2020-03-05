@@ -4,18 +4,32 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div> -->
-    <app-layout></app-layout>
-    <app-footer />
+    <app-spinner v-if="show_spinner" />
+    <app-layout v-if="!show_spinner"></app-layout>
+    <app-footer v-if="!show_spinner" />
   </div>
 </template>
 
 <script>
 import appLayout from "@/components/Layouts/Layout.vue";
 import appFooter from "@/components/base/Footer.vue";
+import appSpinner from "@/components/UI/Spinner.vue";
 export default {
+  data() {
+    return {
+      show_spinner: true
+    };
+  },
   components: {
     appLayout,
-    appFooter
+    appFooter,
+    appSpinner
+  },
+  mounted() {
+    const vm = this;
+    setTimeout(() => {
+      vm.show_spinner = false;
+    }, 2000);
   }
 };
 </script>

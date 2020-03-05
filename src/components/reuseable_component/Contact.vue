@@ -29,6 +29,7 @@
                     cols="30"
                     rows="9"
                     placeholder="Enter Message"
+                    disabled
                   ></textarea>
                 </div>
               </div>
@@ -40,6 +41,7 @@
                     id="name"
                     type="text"
                     placeholder="Enter your name"
+                    disabled
                   />
                 </div>
               </div>
@@ -51,6 +53,7 @@
                     id="email"
                     type="email"
                     placeholder="Enter email address"
+                    disabled
                   />
                 </div>
               </div>
@@ -62,13 +65,18 @@
                     id="subject"
                     type="text"
                     placeholder="Enter Subject"
+                    disabled
                   />
                 </div>
               </div>
             </div>
             <div class="form-group mt-lg-3">
-              <button type="submit" class="primary_btn button-contactForm">
-                Send Message
+              <button
+                type="submit"
+                disabled
+                class="primary_btn button-contactForm"
+              >
+                Still in progress
               </button>
             </div>
           </form>

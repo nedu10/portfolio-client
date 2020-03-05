@@ -43,12 +43,12 @@
                 GRADE: FIRST CLASS (BEST GRADUATING STUDENT)
               </h6>
               <p class="margin-tb-30">
-                Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
-                neque sit amet sodales. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nulla maximus pellentes que velit, quis
-                consequat nulla effi citur at. Maecenas sed massa tristique.Duis
-                non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque
-                sit amet sodales.
+                In my five(5) years in the university of benin i learnt how to
+                analyse Electrical and Electronics circuit and also to provide
+                solutions to engineering and mathematical problems. I was the
+                leader of my final year project group which helped me hone my
+                leadership skill. I also tutored students in lower levels of my
+                department.
               </p>
             </div>
             <!-- education -->
@@ -65,12 +65,11 @@
                 GRADE: BEST GRADUATING STUDENT
               </h6>
               <p class="margin-tb-30">
-                Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
-                neque sit amet sodales. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nulla maximus pellentes que velit, quis
-                consequat nulla effi citur at. Maecenas sed massa tristique.Duis
-                non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque
-                sit amet sodales.
+                During my secondary school days, i participated in the National
+                Cowbel Mathematics Competition, National Olympiad Competion and
+                other intra class competion. I was a member of the jet club. I
+                was also the Best Graduating Student and was offered yearly
+                scholarship throughout my university education.
               </p>
             </div>
             <!-- education -->
@@ -82,12 +81,8 @@
                 GRADUATED IN SEPTEMBER 2008
               </h6>
               <p class="margin-tb-30">
-                Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
-                neque sit amet sodales. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Nulla maximus pellentes que velit, quis
-                consequat nulla effi citur at. Maecenas sed massa tristique.Duis
-                non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque
-                sit amet sodales.
+                I participated in several social activities and intra class
+                competitions
               </p>
             </div>
             <!-- education -->

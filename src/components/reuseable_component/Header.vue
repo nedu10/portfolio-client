@@ -24,7 +24,7 @@
                 ><i style="color: white !important;" class="ti-tablet"></i
               ></span>
               <div class="right-area">
-                <h5 class="text-white">09057628965, 08148522838</h5>
+                <h5 class="text-white">09057628965, 07017997333</h5>
                 <h6 class="text-white">M0N - SUN, 8AM - 10PM</h6>
               </div>
               <!-- right-area -->
