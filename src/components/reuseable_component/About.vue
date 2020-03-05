@@ -5,11 +5,11 @@
       <div class="row justify-content-start align-items-center">
         <div class="col-lg-4">
           <div class="about_img">
-            <img class="" src="@/assets/images/about-us.png" alt="" />
+            <img class="" src="@/assets/images/about-me.png" alt="" />
           </div>
         </div>
 
-        <div class="offset-lg-1 col-lg-7">
+        <div class="col-lg-8 pl-2">
           <div class="main_title text-left">
             <p class="top_text">About me <span></span></p>
             <h2>
@@ -26,7 +26,7 @@
               <div class="col-6 col-md-3 py-4 col-lg-3">
                 <div class=" margin-b-30">
                   <radial-progress-bar
-                    :diameter="120"
+                    :diameter="145"
                     :strokeWidth="3"
                     startColor="#4565fc"
                     stopColor="#9b1a77"
@@ -56,7 +56,7 @@
               <div class="col-6 col-md-3 py-4 col-lg-3">
                 <div class=" margin-b-30">
                   <radial-progress-bar
-                    :diameter="120"
+                    :diameter="145"
                     :strokeWidth="3"
                     startColor="#4565fc"
                     stopColor="#9b1a77"
@@ -81,7 +81,7 @@
               <div class="col-6 col-md-3 py-4 col-lg-3">
                 <div class=" margin-b-30">
                   <radial-progress-bar
-                    :diameter="120"
+                    :diameter="145"
                     :strokeWidth="3"
                     startColor="#4565fc"
                     stopColor="#9b1a77"
@@ -113,7 +113,7 @@
               <div class="col-6 col-md-3 py-4 col-lg-3">
                 <div class=" margin-b-50">
                   <radial-progress-bar
-                    :diameter="120"
+                    :diameter="145"
                     :strokeWidth="3"
                     startColor="#4565fc"
                     stopColor="#9b1a77"

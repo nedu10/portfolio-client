@@ -12,22 +12,22 @@ const routes = [
     name: "home",
     component: Home
   },
-  {
-    path: "/admin",
-    name: "admin",
-    component: Admin,
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    // component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-    children: [
-      {
-        path: "/",
-        name: "admin_home",
-        component: About
-      }
-    ]
-  }
+  // {
+  //   path: "/admin",
+  //   name: "admin",
+  //   component: Admin,
+  //   // route level code-splitting
+  //   // this generates a separate chunk (about.[hash].js) for this route
+  //   // which is lazy-loaded when the route is visited.
+  //   // component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+  //   children: [
+  //     {
+  //       path: "/",
+  //       name: "admin_home",
+  //       component: About
+  //     }
+  //   ]
+  // }
 ];
 
 const router = new VueRouter({

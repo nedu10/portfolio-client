@@ -7,7 +7,9 @@
 /* .custom_move_admin_page {
   margin-top: 100px !important;
 } */
-media (max-width: 991px) .custom_move_admin_page {
+/* media and (max-width: 991px){
+.custom_move_admin_page {
   margin-top: 117px !important;
 }
+}  */
 </style>

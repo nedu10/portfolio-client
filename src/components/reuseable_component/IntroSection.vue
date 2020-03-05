@@ -34,8 +34,15 @@
               </li>
               <li>
                 <span class="font-weight-bold custom-text-primary"
-                  >MARITAL STATUS : </span
-                >Single
+                  >GITHUB : </span
+                ><a href="https://github.com/nedu10">www.github.com/nedu10</a>
+              </li>
+              <li>
+                <span class="font-weight-bold custom-text-primary"
+                  >LINKEDIN : </span
+                ><a href="https://www.linkedin.com/in/chinedu-ifediorah11/"
+                  >Chinedu Ifediorah</a
+                >
               </li>
             </ul>
             <!-- <ul class="social-icons d-flex">
